@@ -56,20 +56,20 @@
     </main>
 
     <!-- Footer -->
-    <footer id="contact" class="mt-16 border-t border-[#f0e2d5] bg-[#fffdfb]">
+    <footer id="contact" class="border-t border-[#f0e2d5] bg-[#2C211D]">
         <div class="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 md:flex-row md:items-center md:justify-between">
 
             <div>
-                <p class="text-lg font-extrabold text-[#C8102E]">
+                <p class="text-lg font-extrabold text-[#E8DDC7]">
                     Nusantara Food
                 </p>
 
-                <p class="mt-1 text-sm text-[#6b7280]">
+                <p class="mt-1 text-sm text-[#C7A46A]">
                     Authentic Indonesian flavors, in every dish.
                 </p>
             </div>
 
-            <p class="text-sm text-[#6b7280]">
+            <p class="text-sm text-[#C7A46A]">
                 &copy; {{ date('Y') }} Nusantara Food. All rights reserved.
             </p>
 

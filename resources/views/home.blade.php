@@ -140,7 +140,28 @@
     </section>
 
 
-    <section id="about" class="mx-auto max-w-7xl px-6 py-20">
+<section id="about" class="relative isolate w-full overflow-hidden bg-[#F8F5EE] py-20">
+
+    {{-- Background Batik Kawung --}}
+    <div
+        class="pointer-events-none absolute inset-0 z-0"
+        aria-hidden="true"
+    >
+        <div
+            class="absolute inset-0 bg-repeat opacity-[0.13]"
+            style="
+                background-image: url('{{ asset('img/batikKawung.webp') }}');
+                background-size: 240px 240px;
+                background-position: center;
+            "
+        ></div>
+
+        {{-- Overlay agar motif terlihat samar --}}
+        <div class="absolute inset-0 bg-[#F8F5EE]/55"></div>
+    </div>
+
+    {{-- Konten asli --}}
+    <div class="relative z-10 mx-auto max-w-7xl px-6">
 
         <div class="mx-auto max-w-2xl text-center">
 
@@ -159,7 +180,6 @@
 
         </div>
 
-
         <div class="mt-12 grid gap-6 md:grid-cols-3">
 
             {{-- Feature 1 --}}
@@ -177,7 +197,6 @@
 
             </article>
 
-
             {{-- Feature 2 --}}
             <article class="rounded-2xl border border-stone-200 bg-white p-7 transition duration-300 hover:-translate-y-2 hover:shadow-xl">
 
@@ -192,7 +211,6 @@
                 </p>
 
             </article>
-
 
             {{-- Feature 3 --}}
             <article class="rounded-2xl border border-stone-200 bg-white p-7 transition duration-300 hover:-translate-y-2 hover:shadow-xl">
@@ -211,6 +229,7 @@
 
         </div>
 
-    </section>
+    </div>
+</section>
 
 @endsection
