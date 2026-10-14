@@ -14,35 +14,35 @@
     ])
 </head>
 
-<body class="min-h-screen bg-stone-50 text-stone-900 antialiased">
+<body class="min-h-screen bg-[#f8f3ee] text-[#1f2937] antialiased">
 
     <!-- Navigation -->
-    <header class="border-b border-stone-200 bg-white">
+    <header class="border-b border-[#f0e2d5] bg-[#2C211D] shadow-sm shadow-[#f1d7c9]/30">
         <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 
             <a href="{{ route('home') }}"
-               class="text-xl font-extrabold tracking-tight text-orange-800">
-                Nusantara Food<span class="text-orange-500">.</span>
+               class="text-xl font-extrabold tracking-tight text-[#E8DDC7]">
+                Nusantara Food<span class="text-[#F4C95D]">.</span>
             </a>
 
             <nav class="flex items-center gap-6 text-sm font-semibold">
                 <a href="{{ route('home') }}"
-                   class="text-stone-700 transition hover:text-orange-700">
+                   class="text-[#F8F5EE] transition hover:text-[#C7A46A]">
                     Home
                 </a>
 
                 <a href="{{ route('menu.index') }}"
-                   class="text-stone-700 transition hover:text-orange-700">
+                   class="text-[#F8F5EE] transition hover:text-[#C7A46A]">
                     Menu
                 </a>
 
                 <a href="#contact"
-                   class="hidden text-stone-700 transition hover:text-orange-700 sm:block">
+                   class="hidden text-[#F8F5EE] transition hover:text-[#C7A46A] sm:block">
                     Contact
                 </a>
 
                 <a href="{{ route('menu.index') }}"
-                   class="rounded-lg bg-orange-600 px-4 py-2.5 text-white transition hover:bg-orange-700">
+                   class="rounded-lg bg-[#E8DDC7] px-4 py-2.5 text-[#2C211D] transition hover:bg-[#C7A46A]">
                     Order Now
                 </a>
             </nav>
@@ -56,20 +56,20 @@
     </main>
 
     <!-- Footer -->
-    <footer id="contact" class="mt-16 border-t border-stone-200 bg-white">
+    <footer id="contact" class="mt-16 border-t border-[#f0e2d5] bg-[#fffdfb]">
         <div class="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 md:flex-row md:items-center md:justify-between">
 
             <div>
-                <p class="text-lg font-extrabold text-orange-800">
+                <p class="text-lg font-extrabold text-[#C8102E]">
                     Nusantara Food
                 </p>
 
-                <p class="mt-1 text-sm text-stone-500">
+                <p class="mt-1 text-sm text-[#6b7280]">
                     Authentic Indonesian flavors, in every dish.
                 </p>
             </div>
 
-            <p class="text-sm text-stone-500">
+            <p class="text-sm text-[#6b7280]">
                 &copy; {{ date('Y') }} Nusantara Food. All rights reserved.
             </p>
 
